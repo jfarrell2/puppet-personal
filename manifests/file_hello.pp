@@ -1,8 +1,5 @@
 file { '/tmp/hello.txt': 
    ensure => file,
-   content => "Hello, World\n",
-   content => "text added via branch\n",
-   content => "Added directly in Master Branch\n",
-   content => "Back to adding via Branch\n",
+   content => "Hello, World, this is updated to use the Puppet attribute correctly\n",
 }
 
