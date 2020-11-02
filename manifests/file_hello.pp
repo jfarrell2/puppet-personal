@@ -1,5 +1,5 @@
-#This file is managed by Puppet
-#All changes will be overwritten
+#This file is managed by Puppet.
+#All changes will be overwritten.
 ################################
 
 file { '/tmp/hello.txt': 
