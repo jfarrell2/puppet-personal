@@ -1,6 +1,7 @@
 #This file is managed by Puppet.
 #All changes will be overwritten.
 ################################
+# Test Merge
 
 file { '/tmp/hello.txt': 
    ensure => file,
