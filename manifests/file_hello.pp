@@ -1,5 +1,6 @@
 #This file is managed by Puppet
-#All changes will be over written
+#All changes will be overwritten
+################################
 
 file { '/tmp/hello.txt': 
    ensure => file,
